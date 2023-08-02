@@ -1,0 +1,19 @@
+{
+  "name": "chargily-pay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel deploy --prod"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chargily-epay-gateway": "^1.4.10",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "vercel": "^31.2.1"
+  }
+}
